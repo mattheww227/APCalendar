@@ -2,7 +2,7 @@ public class APCalendar
 {
     private static boolean isLeapYear(int year)
     {
-
+        return (year % 4) = 0;
     }
 
     public static int numberOfLeapYears(int year1, int year2)
@@ -20,7 +20,7 @@ public class APCalendar
 
     }
 
-    public static int dayOfWeek(int month int day, int year)
+    public static int dayOfWeek(int month, int day, int year)
     {
 
     }
